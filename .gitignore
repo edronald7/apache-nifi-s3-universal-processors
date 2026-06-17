@@ -1,0 +1,48 @@
+# ─── Maven build output ───────────────────────────────────────────────────────
+nifi-source/**/target/
+nifi-source/**/*.class
+nifi-source/**/*.jar
+nifi-source/**/*.nar
+
+# ─── Maven local settings ─────────────────────────────────────────────────────
+nifi-source/**/settings.xml
+
+# ─── NiFi runtime directories ─────────────────────────────────────────────────
+nar-work/
+work/
+logs/
+run/
+conf/archive/
+database_repository/
+flowfile_repository/
+content_repository/
+provenance_repository/
+state/
+
+# ─── IDE ──────────────────────────────────────────────────────────────────────
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+*.code-workspace
+.project
+.classpath
+.settings/
+
+# ─── OS ───────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Credenciales y entornos locales ─────────────────────────────────────────
+.env
+*.env.local
+credentials/
+*.pem
+*.key
+*.p12
+*.jks
+
+# ─── Docker volúmenes y datos locales ────────────────────────────────────────
+nifi-1.20/lib/
